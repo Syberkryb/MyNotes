@@ -1,18 +1,17 @@
-﻿List<Page>pages = new List<Page>();
+﻿List<Page>VarPages = new List<Page>();
 
-Page side1 = new Page(MyNotes.VariablesPageOne);
-Page side2 = new Page(MyNotes.VariablesPageTwo);
+Page side1 = new Page(MyNotes.Variables);
+Page side2 = new Page(MyNotes.integer);
 
-pages.Add(side1);
-pages.Add(side2);
+VarPages.Add(side1);
+
 
 
 Chapter kap1 = new Chapter("Var");
-kap1.Pages = pages;
-Chapter kap2 = new Chapter("Var2", pages);
+kap1.Pages = VarPages;
 
-kap1.Read();
-kap2.Read();
+Chapter kap2 = new Chapter("Var2");
+
 
 List<Chapter> chapters = new List<Chapter>();
 chapters.Add(kap1);
@@ -21,5 +20,12 @@ chapters.Add(kap2);
 Book mybook = new Book("Programming notes",chapters);
 
 
-//pause
+Console.Clear();
+        Console.WriteLine("I denne bog kommer du til at lære om nogle af de forskellige varibler i C#");
+        Console.WriteLine(chapters);
+        Console.WriteLine("Her er en liste over kapitlerne:");
+       
+    
+
+
 Console.ReadLine();

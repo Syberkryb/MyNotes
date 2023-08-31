@@ -1,21 +1,13 @@
 public static class MyNotes
 {
-    public static string VariablesPageOne =
+    public static string Variables =
 @"...
-In the vast savannah of computer memory, a remarkable phenomenon occurs. 
-Behold, the magnificent 'variables' – they are the vessels of information, the heart of computation. 
-They bear names, bestowed upon them with care, starting only with letters or the humble underscore. 
-But tread with caution, for certain names are forbidden, like 'int', 'string', and 'bool'. 
-With the gentle touch of the '=' operator, values are imbued unto these variables. 
-And lo, their types can be declared, like incantations, as in 'type variableName = value;'. 
-Observe: 
- int age = 32;
- string name = ""Jesper"";
- float awesomeLevel = 99.9f;
- bool TooCoolForSchool = false;
+Variabler er en pladsholder for tekst, tal og alt muligt andet.
+Der findes flere forskellige typer af variabler.
+Der er integer, float, bool, string
 ";
 
-    public static string VariablesPageTwo =
+    public static string integer =
 @"...
 So often used without consideration for its magnificence, the humble 'variable' is the heart of computation. 
 It can be used to store and manipulate data, and is the backbone of all computer programs. 
