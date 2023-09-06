@@ -1,0 +1,15 @@
+Assigning values to an array in C# involves:
+
+Array Declaration: Declare the array with its data type and size.
+int[] numbers = new int[5];
+
+
+Assignment: Assign values to individual elements using index notation.
+numbers[0] = 10;
+numbers[1] = 20;
+numbers[2] = 30;
+
+Initializing During Declaration: Initialize the array with values during declaration.
+int[] numbers = { 10, 20, 30, 40, 50 };
+
+Assigning values to an array is a fundamental operation in C#, allowing you to store and manipulate collections of data efficiently.
