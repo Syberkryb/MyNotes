@@ -47,9 +47,8 @@ chapters.Add(kap1);
 chapters.Add(kap2);
 chapters.Add(kap3);
 
-Book mybook = new Book("Programming notes",chapters);
 
-Console.ResetColor();
+Book mybook = new Book("Programming notes",chapters);
 mybook.Start();       
     
 
