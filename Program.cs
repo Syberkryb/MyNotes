@@ -33,6 +33,15 @@ new Page(MyNotes.bool5),
 };
 
 
+List<Page>StringPages = new List<Page>(){
+new Page(MyNotes.string1),
+new Page(MyNotes.string2),
+new Page(MyNotes.string3),
+new Page(MyNotes.string4),
+new Page(MyNotes.string5),
+};
+
+
 Chapter kap1 = new Chapter("Variables");
 kap1.Pages = VarPages;
 
@@ -45,11 +54,15 @@ kap3.Pages = FloatPages;
 Chapter kap4 = new Chapter("Bool");
 kap4.Pages = BoolPages;
 
+Chapter kap5 = new Chapter("String");
+kap5.Pages = StringPages;
+
 List<Chapter> chapters = new List<Chapter>();
 chapters.Add(kap1);
 chapters.Add(kap2);
 chapters.Add(kap3);
 chapters.Add(kap4);
+chapters.Add(kap5);
 
 
 Book mybook = new Book("Programming notes",chapters);
