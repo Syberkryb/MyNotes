@@ -57,12 +57,9 @@ kap4.Pages = BoolPages;
 Chapter kap5 = new Chapter("String");
 kap5.Pages = StringPages;
 
-List<Chapter> chapters = new List<Chapter>();
-chapters.Add(kap1);
-chapters.Add(kap2);
-chapters.Add(kap3);
-chapters.Add(kap4);
-chapters.Add(kap5);
+List<Chapter> chapters = new List<Chapter>()
+{kap1,kap2,kap3,kap4,kap5};
+
 
 
 Book mybook = new Book("Programming notes",chapters);
