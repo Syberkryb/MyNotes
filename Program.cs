@@ -3,9 +3,6 @@
     };
 
 
-
-
-
 List<Page>IntPages = new List<Page>(){
 new Page(MyNotes.integer1),
 new Page(MyNotes.integer2),
@@ -43,6 +40,7 @@ new Page(MyNotes.string5),
 
 
 
+
 Chapter kap1 = new Chapter("Variables");
 kap1.Pages = VarPages;
 
@@ -62,6 +60,8 @@ kap5.Pages = StringPages;
 List<Chapter> chapters = new List<Chapter>()
 {kap1,kap2,kap3,kap4,kap5};
 
+txtReader reader = new txtReader(); 
+reader.chapters2 = chapters;
 
 
 Book mybook = new Book("Programming notes",chapters);
