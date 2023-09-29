@@ -42,6 +42,7 @@ new Page(MyNotes.string5),
 };
 
 
+
 Chapter kap1 = new Chapter("Variables");
 kap1.Pages = VarPages;
 
@@ -56,6 +57,7 @@ kap4.Pages = BoolPages;
 
 Chapter kap5 = new Chapter("String");
 kap5.Pages = StringPages;
+
 
 List<Chapter> chapters = new List<Chapter>()
 {kap1,kap2,kap3,kap4,kap5};
