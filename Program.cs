@@ -60,8 +60,6 @@ kap5.Pages = StringPages;
 List<Chapter> chapters = new List<Chapter>()
 {kap1,kap2,kap3,kap4,kap5};
 
-txtReader reader = new txtReader(); 
-reader.chapters2 = chapters;
 
 
 Book mybook = new Book("Programming notes",chapters);
